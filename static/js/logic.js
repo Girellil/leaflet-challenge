@@ -78,7 +78,7 @@ d3.json(link).then(function(data) {
     // Set up the legend.
     let legend = L.control({ position: "bottomright" });
     legend.onAdd = function () {
-        var div = L.DomUtil.create('div', 'info legend'),
+        let div = L.DomUtil.create('div', 'info legend'),
         grades = colorLabels,
         colors = colorScales,
         labels = [];
@@ -87,7 +87,7 @@ d3.json(link).then(function(data) {
     div.innerHTML = '<h1>Earthquake Depth</h1>'
     
     // Loop through our density intervals and generate a label with a colored square for each interval
-    for (var i = 0; i < grades.length; i++) {
+    for (let i = 0; i < grades.length; i++) {
         // Add rectangle filled with respective color
         div.innerHTML +=
             '<span style="background-color:' + colors[i] + ';width:35px;height:25px;display:inline-block;margin-right:5px;"></span>' +
