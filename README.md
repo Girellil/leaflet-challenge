@@ -15,9 +15,9 @@ Solution for the Challenge of Module 15 ( Leaflet map using USGS data ) presente
 
 Considerations:
 
-    The legend is represented in tones of RED, following the challenge requirement for darker markers for higher depthes.
+    - The legend is represented in tones of RED, following the challenge requirement for darker markers for higher depthes.
     ![Dashboard](/images/5-Legend.png)    
 
-Map format - initial MAP Page:
-HL: http://127.0.0.1:5500/
+    - Map format - initial MAP Page:
+    HL: http://127.0.0.1:5500/
     ![Dashboard](/images/4-Map.png)
